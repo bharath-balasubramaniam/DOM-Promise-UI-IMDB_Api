@@ -1,0 +1,85 @@
+body {
+  background-image: url("bg.jpg?auto=compress&cs=tinyrgb&dpr=2&h=1799&w=2440");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.p1 {
+  font-size: 30px;
+  text-align: center;
+  font-family: "Lobster Two", cursive;
+}
+.p {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Lobster Two", cursive;
+}
+#button {
+  position: relative;
+  left: 27.5%;
+  font-family: "Lobster Two", cursive;
+}
+
+.close-modal {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 5rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.main {
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(0.5px);
+}
+.footer {
+  width: 100%;
+  text-align: center;
+  padding-top: 100%;
+}
+#exampleModalLabel {
+  text-align: center;
+  color: white;
+  font-family: "Lobster Two", cursive;
+}
+#modal {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+span,
+h5,
+#pyear,
+#pgenre,
+#pcountry,
+#pstory,
+ul {
+  color: white;
+  padding-left: 10px;
+  font-family: "Lobster Two", cursive;
+}
+.poster {
+  padding: 5px;
+}
+#pstory {
+  text-align: justify;
+  font-family: "Lobster Two", cursive;
+}
+.ul {
+  list-style-type: square;
+  display: inline-block;
+  font-family: "Lobster Two", cursive;
+}
+li {
+  display: inline;
+}
+span {
+  font-size: 16px;
+  font-family: "Lobster Two", cursive;
+}
