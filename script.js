@@ -8,7 +8,7 @@ btn.onclick = function () {
 };
 let foo = async function () {
   let data = await fetch(
-    `http://www.omdbapi.com/?t=${input.value}&apikey=5c6e09a0`
+    `https://www.omdbapi.com/?t=${input.value}&apikey=5c6e09a0`
   );
   let info = await data.json();
   document.querySelector(".modal-title").textContent = info.Title;
