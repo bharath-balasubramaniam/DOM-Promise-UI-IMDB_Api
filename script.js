@@ -36,3 +36,6 @@ let foo = async function () {
     "pmeta"
   ).innerHTML = `💯MetaScore: ${info.Metascore}/100.`;
 };
+document.querySelector(".close").addEventListener("click", function () {
+  window.location.reload();
+});
