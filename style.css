@@ -47,8 +47,11 @@ body {
   padding-top: 100%;
   position:relative;
   bottom:0;
+  font-weight:600;
 }
-
+.footer-p{
+  color:black;
+  font-weight:700;
 #exampleModalLabel {
   text-align: center;
   color: white;
