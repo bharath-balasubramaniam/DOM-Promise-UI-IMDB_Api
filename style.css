@@ -12,17 +12,17 @@ body {
 .p1 {
   font-size: 30px;
   text-align: center;
-  font-family: "Lobster Two", cursive;
+  font-family: 'Work Sans', sans-serif;
 }
 .p {
   font-size: 20px;
   text-align: center;
-  font-family: "Lobster Two", cursive;
+  font-family: 'Work Sans', sans-serif;
 }
 #button {
   position: relative;
   left: 27.5%;
-  font-family: "Lobster Two", cursive;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .close-modal {
@@ -48,7 +48,7 @@ body {
 #exampleModalLabel {
   text-align: center;
   color: white;
-  font-family: "Lobster Two", cursive;
+ font-family: 'Work Sans', sans-serif;
 }
 #modal {
   background-color: rgba(0, 0, 0, 0.8);
@@ -62,24 +62,24 @@ h5,
 ul {
   color: white;
   padding-left: 10px;
-  font-family: "Lobster Two", cursive;
+  font-family: 'Work Sans', sans-serif;
 }
 .poster {
   padding: 5px;
 }
 #pstory {
   text-align: justify;
-  font-family: "Lobster Two", cursive;
+  font-family: 'Work Sans', sans-serif;
 }
 .ul {
   list-style-type: square;
   display: inline-block;
-  font-family: "Lobster Two", cursive;
+  font-family: 'Work Sans', sans-serif;
 }
 li {
   display: inline;
 }
 span {
   font-size: 16px;
-  font-family: "Lobster Two", cursive;
+  font-family: 'Work Sans', sans-serif;
 }
