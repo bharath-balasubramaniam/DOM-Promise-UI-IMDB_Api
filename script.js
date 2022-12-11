@@ -35,7 +35,7 @@ let foo = async function () {
   document.getElementById(
     "pmeta"
   ).innerHTML = `💯MetaScore: ${info.Metascore}/100.`;
-   document.querySelector(".loadimg").src = "";
+  document.querySelector(".loadimg").classList.add("hide-img");
 };
 document.querySelector(".close").addEventListener("click", function () {
   window.location.reload();
